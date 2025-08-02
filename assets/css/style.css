@@ -2052,11 +2052,11 @@ textarea.form-input::-webkit-resizer {
     transform: scale(1.1);
   }
 
-  /* 响应式设计：在小屏幕下自动缩小
+  /* 响应式设计：在小屏幕下自动缩小 */
   @media (max-width: 600px) {
     .exophase-card {
       width: 98vw;
       max-width: 98vw;
     }
-  } */
+  }
 }
