@@ -2035,14 +2035,14 @@ textarea.form-input::-webkit-resizer {
 
   .exophase-card-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-top: 16px;
   }
 
   .exophase-card {
     width: auto; /* 你可以根据需要调整这个宽度，比如 350px、500px 等 */
     max-height: 100%;
-    height: 135px;
+    height: auto;
     border-radius: 12px;
     box-shadow: var(--shadow-2);
     transition: transform var(--transition-1);
